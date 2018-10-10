@@ -1,0 +1,88 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector on the Silk Road</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+</head>
+<body>
+    <main class="container">
+
+        <!-- Header -->
+        <div class="row">&nbsp;</div>
+        <div class="row justify-content-center">
+            <h1 class="font-weight-bold">Crystal Collector Game</h1>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row justify-content-center">
+            <h1 class="font-weight-bold">the Silk Road Edition</h1>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row justify-content-center">
+            <h1 class="font-weight-bold"><span lang="cn">丝绸之路愿意您!</span></h1>
+        </div>
+        <div class="row">&nbsp;</div>
+
+        <!-- 2 Columns :: Laws of the Game & Game functions -->
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="font-weight-bold" id="laws_header">LAWS OF THE GAME</h1><hr><br><br>
+                <p>You will be given a random number at the start of the game (display below).</p><br><br>
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific
+                    amount of points to your total score.</p><br><br>
+                <p>However, the value of each crystal is
+                    hidden from you until you click on it.</p><br><br>
+                <p>You win the game by matching your total points to the random number. Or, you lose
+                    the game if your total points exceed the random number.</p><br><br>
+                <p>Beware there are many crooks and mercenaries seeking the same crystals you are 
+                    collecting here. BEWARE!!</p><br><br>
+            </div>
+            <div class="col-md-6">
+                <div class="row">&nbsp;</div>
+                <div class="row" id="matchNumber">
+                    <p>Match this number: <span id="randomNumber"></span></p>
+                </div>
+                <div class="row">&nbsp;</div>
+                <div class="row" id="images">
+                    <div class="column">
+                        <img src="assets/images/jade.jfif" id="jade" alt="Jade">
+                    </div>
+                    <div class="column">
+                        <img src="assets/images/pearl.jfif" id="pearl" alt="Pearl">
+                    </div>
+                    <div class="column">
+                        <img src="assets/images/quartz.jfif" id="quartz" alt="Quartz">
+                    </div>
+                    <div class="column">
+                        <img src="assets/images/ruby.jfif" id="ruby" alt="Ruby">
+                    </div>
+                </div>
+                <div class="row">&nbsp;</div>
+                <div class="row" id="totalpoints">
+                    <p>Your Total Points: <span id="finalTotal"></span></p>
+                </div>
+                <div class="row">&nbsp;</div>
+                <div class="row" id="WinsLosses">
+                    <p>Wins: <span id="numberWins"></span></p>
+                </div>
+                <br>
+                <div class="row" id="WinsLosses">
+                    <p>Losses: <span id="numberLosses"></span></p>
+                </div>
+                <div class="row">&nbsp;</div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+    </main>
+</body>
+<footer>
+    
+</footer>
+</html>
