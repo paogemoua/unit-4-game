@@ -9,22 +9,21 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-</head>
-<body>
+    <body>
     <main class="container">
 
         <!-- Header -->
         <div class="row">&nbsp;</div>
         <div class="row justify-content-center">
-            <h1 class="font-weight-bold">Crystal Collector Game</h1>
+            <h1 class="font-weight-bold" id="CrystalCollector">Crystal Collector Game</h1>
         </div>
         <div class="row">&nbsp;</div>
         <div class="row justify-content-center">
-            <h1 class="font-weight-bold">the Silk Road Edition</h1>
+            <h1 class="font-weight-bold" id="silkroadEd">the Silk Road Edition</h1>
         </div>
         <div class="row">&nbsp;</div>
         <div class="row justify-content-center">
-            <h1 class="font-weight-bold"><span lang="cn">丝绸之路愿意您!</span></h1>
+            <h1 class="font-weight-bold" id="silkroadcn"><span lang="cn">丝绸之路愿意您!</span></h1>
         </div>
         <div class="row">&nbsp;</div>
 
@@ -70,19 +69,23 @@
                 <div class="row" id="WinsLosses">
                     <p>Wins: <span id="numberWins"></span></p>
                 </div>
-                <br>
                 <div class="row" id="WinsLosses">
                     <p>Losses: <span id="numberLosses"></span></p>
                 </div>
                 <div class="row">&nbsp;</div>
             </div>
-        </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
         crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
     </main>
 </body>
 <footer>
-    
+    <p class="text-center">Copyright &copy; <span id="date"></span>
+        <script type="text/javascript">
+        var d = new Date()
+        document.write(d.getFullYear())
+        </script>
+    </span>Paoge Moua</p>
 </footer>
+<br>
 </html>
