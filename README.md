@@ -1,10 +1,10 @@
 #Crystal Collector Game
 
-###Description###
+###Description
 
 The Crystal Collector Game involves the player clicking different that are assigned various point values.  The values adds up to a total display for the player. Each player's primary goal is to match their total points with a point value generated. After each game, the value points assigned to each crystal is reset and reassigned a new value.
 
-###Instruction###
+###Instruction
 
 *You will be given a random number at the start of the game.
 
